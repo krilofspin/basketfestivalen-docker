@@ -1,10 +1,3 @@
-# Important information about the build for js and css
-The build environment is missing a few custom built components for Semantic UI that should be in the repository, but they are not. The result is a build that cannot be built successfully with Webpack and NPM/Yarn.
-
-To be able to build the bundle you need to remove the dependencies to the missing custom components and either use another component library from the web or create a new custom component as replacement.
-
-Styling for the newsletter form (in the footer and home page) comes from the subscribe-form.php
-
 # Intention
 Use as a bolierplate for working with Wordpress and Docker. Includes Xdebug.
 
