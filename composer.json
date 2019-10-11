@@ -1,0 +1,186 @@
+{
+  "name": "spinit",
+  "type": "project",
+  "license": "MIT",
+  "description": "",
+  "homepage": "https://www.spinit.se",
+  "support": {},
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro",
+        "version": "1.9.8",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=9ed15e25-30d5-4a08-8f56-1a0a75a962ef&site_url=localhost"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro-media-files",
+        "version": "1.4.8",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://deliciousbrains.com/dl/wp-migrate-db-pro-media-files-latest.zip?licence_key=9ed15e25-30d5-4a08-8f56-1a0a75a962ef&site_url=localhost"
+        },
+        "require": {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/sitepress-multilingual-cms",
+        "version": "3.9.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://wpml.org/?download=6088&user_id=16105&subscription_key=$P$BReezbzo.dBzXsF3INR7etC.pveM7&t=1522307595&version=3.9.3"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/acfml",
+        "version": "0.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://wpml.org/?download=1097589&user_id=16105&subscription_key=$P$BReezbzo.dBzXsF3INR7etC.pveM7&t=1522307595&version=0.7"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpml/wpml-string-translation",
+        "version": "2.7.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://wpml.org/?download=6092&user_id=16105&subscription_key=$P$BReezbzo.dBzXsF3INR7etC.pveM7&t=1522307595&version=2.7.3"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.6.9",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/acf-repeater",
+        "version": "1.1.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://download.advancedcustomfields.com/QJF7-L4IX-UCNP-RF2W/trunk"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/acf-options-page",
+        "version": "1.2.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://download.advancedcustomfields.com/OPN8-FA4J-Y2LW-81LS/trunk"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/acf-flexible-content",
+        "version": "1.1.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url":
+            "https://download.advancedcustomfields.com/FC9O-H6VN-E4CL-LT33/trunk"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "roots/soil": "3.7.1",
+    "wpackagist-plugin/breadcrumb-navxt": "6.0.4",
+    "deliciousbrains/wp-migrate-db-pro": "*",
+    "deliciousbrains/wp-migrate-db-pro-media-files": "*",
+    "wpml/sitepress-multilingual-cms": "*",
+    "wpml/acfml": "*",
+    "wpml/wpml-string-translation": "*",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "advanced-custom-fields/acf-repeater": "*",
+    "advanced-custom-fields/acf-options-page": "*",
+    "advanced-custom-fields/acf-flexible-content": "*",
+    "wpackagist-plugin/menu-image": "*",
+    "wpackagist-plugin/wordpress-https": "3.3.6",
+    "wpackagist-plugin/wp-smushit": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/worker": "*",
+    "wpackagist-plugin/clean-unused-medias": "1.09",
+    "wpackagist-plugin/query-monitor": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "app/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "app/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "app/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "wp"
+  },
+  "scripts": {
+    "test": ["vendor/bin/phpcs"]
+  }
+}
